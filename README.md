@@ -29,16 +29,6 @@ This repo contains code for training object detection models on the [TTPLA datas
 | Sobel+Hough | 5.0% | 87.8% | 9.4% |
 | Canny+Hough | 4.4% | 72.7% | 8.2% |
 
-## Installation
-```bash
-git clone https://github.com/dgroccia/electrical_infrastructure_detection_workflow.git
-cd electrical_infrastructure_detection_workflow
-
-# Create conda environment
-conda create -n infra-detect python=3.10
-conda activate infra-detect
-```
-
 ## Dataset
 
 Download the TTPLA dataset from the [official repository](https://github.com/R3ab/ttpla_dataset) and place images in `data/ttpla_raw/`.
