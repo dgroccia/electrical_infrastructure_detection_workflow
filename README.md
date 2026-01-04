@@ -69,14 +69,6 @@ python src/train/train_detectron.py --config configs/faster_rcnn_r101_fpn.yaml
 # Cascade R-CNN
 python src/train/train_detectron.py --config configs/cascade_rcnn_r101_fpn.yaml
 ```
-
-## Evaluation
-```bash
-# Deep learning models
-python src/eval/eval_yolo.py --weights path/to/weights.pt
-python src/eval/eval_detectron.py --weights path/to/model_final.pth
-
-# Classical CV
 python src/eval/eval_classical_cv.py --method lsd
 ```
 
