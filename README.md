@@ -31,8 +31,8 @@ This repository contains code for training and evaluating object detection model
 
 ## Installation
 ```bash
-git clone https://github.com/[username]/electrical-infrastructure-detection.git
-cd electrical-infrastructure-detection
+git clone https://github.com/dgroccia/electrical_infrastructure_detection_workflow.git
+cd electrical_infrastructure_detection_workflow
 
 # Create conda environment
 conda create -n infra-detect python=3.10
