@@ -1,10 +1,10 @@
 # Electrical Infrastructure Detection from Aerial Imagery
 
-Benchmarking deep learning and classical computer vision methods for detecting transmission towers (pylons) and power lines from aerial imagery.
+This study benchmarks deep learning and classical computer vision methods for detecting transmission towers and power lines from aerial imagery.
 
 ## Overview
 
-This repository contains code for training and evaluating object detection models on the [TTPLA dataset](https://github.com/R3ab/ttpla_dataset). We compare:
+This repo contains code for training object detection models on the [TTPLA dataset](https://github.com/R3ab/ttpla_dataset). We compare:
 
 - **Single-stage detectors**: YOLOv8m, YOLOv9m
 - **Two-stage detectors**: Faster R-CNN, Cascade R-CNN
@@ -37,9 +37,6 @@ cd electrical_infrastructure_detection_workflow
 # Create conda environment
 conda create -n infra-detect python=3.10
 conda activate infra-detect
-
-# Install dependencies
-pip install -r requirements.txt
 ```
 
 ## Dataset
