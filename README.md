@@ -80,24 +80,3 @@ python src/eval/eval_detectron.py --weights path/to/model_final.pth
 python src/eval/eval_classical_cv.py --method lsd
 ```
 
-## Citation
-
-If you use this code, please cite:
-```bibtex
-@mastersthesis{[lastname]2024infrastructure,
-  title={Benchmarking Object Detection Architectures for Electrical Infrastructure Detection in Aerial Imagery},
-  author={[Your Name]},
-  school={George Mason University},
-  year={2024}
-}
-```
-
-## Acknowledgments
-
-- [TTPLA Dataset](https://github.com/R3ab/ttpla_dataset)
-- [Ultralytics](https://github.com/ultralytics/ultralytics)
-- [Detectron2](https://github.com/facebookresearch/detectron2)
-
-## License
-
-MIT License
